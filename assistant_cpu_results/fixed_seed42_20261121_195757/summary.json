@@ -1,0 +1,30 @@
+{
+  "config": {
+    "model": "fixed",
+    "epochs": 200,
+    "seed": 42,
+    "device": "cpu",
+    "drop_rates": [
+      0.0,
+      0.1,
+      0.3,
+      0.5
+    ],
+    "repeats": 3,
+    "threads": 2,
+    "out": "/workspace/scratch/f77fcb5d635a/cora_step1/experiment_cpu_20261121_195629"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "torch": "2.5.1+cpu",
+  "pyg": "2.6.1",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "best_epoch": 157,
+  "best_val_accuracy": 0.7699999809265137,
+  "clean_test_accuracy": 0.796999990940094,
+  "seconds": 4.756397870000001,
+  "parameters": 46007,
+  "protocol": "Cora public split; transductive; clean train/validation; validation-only checkpoint selection; test-time paired edge deletion",
+  "script_sha256": "6639b00b918170d3e8e2da2d7b8a1146b88f709e5db1767ccec1600db28f8c53"
+}

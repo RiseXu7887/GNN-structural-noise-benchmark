@@ -1,0 +1,16 @@
+Python=3.12.14 Torch=2.5.1+cpu PyG=2.6.1 Device=cpu
+Nodes=2708 Directed-edge entries=10556 Features=1433 Classes=7
+Train/Val/Test=140/500/1000
+Epoch 001 | loss=1.9466 | val_acc=0.3120
+Epoch 020 | loss=1.8049 | val_acc=0.6440
+Epoch 040 | loss=1.5083 | val_acc=0.7120
+Epoch 060 | loss=1.2204 | val_acc=0.7540
+Epoch 080 | loss=0.9840 | val_acc=0.7380
+Epoch 100 | loss=0.8243 | val_acc=0.7460
+Epoch 120 | loss=0.6987 | val_acc=0.7580
+Epoch 140 | loss=0.6752 | val_acc=0.7720
+Epoch 160 | loss=0.6067 | val_acc=0.7620
+Epoch 180 | loss=0.5231 | val_acc=0.7500
+Epoch 200 | loss=0.5374 | val_acc=0.7660
+FINISHED | best_epoch=144 | best_val=0.7820 | clean_test_acc=0.7960 | seconds=4.6
+Output: /workspace/scratch/f77fcb5d635a/cora_step1/experiment_cpu_20261121_195629/fixed_seed44_20261121_195811
