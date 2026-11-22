@@ -1,0 +1,56 @@
+[
+  {
+    "path": "data/Cora/raw/ind.cora.allx",
+    "bytes": 257305,
+    "sha256": "9419ba2f26f5c35243db64aba110e0f35a04851609e0dc5433450676ca6b8543",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.allx"
+  },
+  {
+    "path": "data/Cora/raw/ind.cora.ally",
+    "bytes": 47959,
+    "sha256": "2b998f5cc7fedc86e7f97ca2498f47a1ffc1462c29e2d578b23bf3f62b6e7d71",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.ally"
+  },
+  {
+    "path": "data/Cora/raw/ind.cora.graph",
+    "bytes": 59847,
+    "sha256": "58f13302f39dde8852dad6fe6d15b89b077b6d7f837626bce671ef80344b383d",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.graph"
+  },
+  {
+    "path": "data/Cora/raw/ind.cora.test.index",
+    "bytes": 5000,
+    "sha256": "297ce89af2b51a6a194181c7dbe1796c6a1cf9cd9349a88383b1b1e227867875",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.test.index"
+  },
+  {
+    "path": "data/Cora/raw/ind.cora.tx",
+    "bytes": 148025,
+    "sha256": "b9afbaa4a400df991f6f02ef677e1e44da55ffc04801fd02f9e673987829226a",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.tx"
+  },
+  {
+    "path": "data/Cora/raw/ind.cora.ty",
+    "bytes": 28135,
+    "sha256": "41f5ac76596a1699cc33f53084a2419e92961c42bb75f36fc38e616d348532ad",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.ty"
+  },
+  {
+    "path": "data/Cora/raw/ind.cora.x",
+    "bytes": 22119,
+    "sha256": "23cfa55d91c6f624233f5eb7b6e3f141f1bd2b2ae39608a63cf5d084bb27baab",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.x"
+  },
+  {
+    "path": "data/Cora/raw/ind.cora.y",
+    "bytes": 4054,
+    "sha256": "94465c14eb53e04ca262198dcbb2521ee8af60fb3f3d546cd6ca24a511b0e7d1",
+    "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/ind.cora.y"
+  },
+  {
+    "path": "data/CoraFull/cora/raw/cora.npz",
+    "bytes": 12857843,
+    "sha256": "62e054f93be00a3dedb15b7ac15a2a07168ceab68b40bf95f54d2289d024c6bc",
+    "source": "https://raw.githubusercontent.com/abojchevski/graph2gauss/master/data/cora.npz"
+  }
+]
