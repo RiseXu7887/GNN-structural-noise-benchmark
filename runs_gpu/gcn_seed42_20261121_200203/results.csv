@@ -1,0 +1,2 @@
+model,seed,drop_rate,repeat,perturb_seed,directed_edges,test_accuracy,clean_test_accuracy,drop_percentage_points,relative_drop
+gcn,42,0.0,0,104200,10556,0.8140000104904175,0.8140000104904175,0.0,0.0
