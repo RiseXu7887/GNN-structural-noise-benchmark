@@ -1,0 +1,27 @@
+{
+  "config": {
+    "model": "gcn",
+    "epochs": 200,
+    "seed": 42,
+    "device": "cuda",
+    "drop_rates": [
+      0.0
+    ],
+    "repeats": 3,
+    "threads": 2,
+    "out": "runs_gpu"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26320-SP0",
+  "torch": "2.7.1+cu128",
+  "pyg": "2.6.1",
+  "numpy": "1.26.4",
+  "device": "cuda",
+  "best_epoch": 127,
+  "best_val_accuracy": 0.796000063419342,
+  "clean_test_accuracy": 0.8140000104904175,
+  "seconds": 16.420576600001368,
+  "parameters": 23063,
+  "protocol": "Cora public split; transductive; clean train/validation; validation-only checkpoint selection; test-time paired edge deletion",
+  "script_sha256": "6639b00b918170d3e8e2da2d7b8a1146b88f709e5db1767ccec1600db28f8c53"
+}
