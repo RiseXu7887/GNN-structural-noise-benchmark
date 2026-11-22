@@ -1,9 +1,0 @@
-Validated on Linux / Python 3.12.14 / torch 2.5.1+cpu / PyG 2.6.1 / numpy 1.26.4 / scipy 1.14.1.
-GCN: seed 42, 200 epochs, best validation epoch 143, validation accuracy 0.794, clean test accuracy 0.820.
-Training and evaluation time: 3.1 seconds (excludes installation and dataset loading).
-Full evidence: verified_runs/ contains history.csv, results.csv, summary.json and best_model.pt.
-Windows setup script has not been executed on a Windows host. RTX 5090 acceleration has not been tested.
-MLP, GAT, gated and fixed: three optimization steps with finite losses and gradients, plus evaluation after 50% edge deletion, PASS.
-Paired deletion at 0/10/30/50/100 percent: undirected symmetry and exact rounded pair counts, PASS.
-MLP prediction invariance to deleted edges, PASS.
-These short checks are not trained-model research comparisons.
