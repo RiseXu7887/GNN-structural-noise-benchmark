@@ -1,0 +1,50 @@
+{
+  "config": {
+    "dataset": "CoraFull",
+    "model": "mlp",
+    "seed": 43,
+    "split_seed": 2026,
+    "train_fraction": 1.0,
+    "epochs": 200,
+    "device": "cuda",
+    "rates": [
+      0.0,
+      0.1,
+      0.3,
+      0.5
+    ],
+    "repeats": 5,
+    "out": "D:\\code_works\\\u79d1\u7814\u9879\u76ee\uff1a\u5916\u65b9\u6559\u6388\u7ed3\u8bfe\u5c55\u793a\\cora_step1\\label_budget_results\\mlp_seed43_fraction1"
+  },
+  "data": {
+    "dataset": "CoraFull",
+    "nodes": 19793,
+    "edge_entries": 126842,
+    "features": 8710,
+    "classes": 70,
+    "train_nodes": 11849,
+    "validation_nodes": 3932,
+    "test_nodes": 4012,
+    "split_hashes": {
+      "train": "0954c1815e8a5be5af04d04d7a36bcdb43d6f0700eb74a5bcf05a2b6fa898f5e",
+      "val": "1d1f604983c4b6c7a0757b71e89a7061e739a23a32bb7ce068a0c88fb7d835b5",
+      "test": "9a16a3a74a7ac0ba80d15c762b1d2203f44704d2359a98de31f478409872e0fb"
+    }
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26320-SP0",
+  "torch": "2.7.1+cu128",
+  "pyg": "2.6.1",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "hidden_output_features": 64,
+  "parameters": 562054,
+  "best_epoch": 199,
+  "best_validation_accuracy": 0.19811800122261047,
+  "clean_test_accuracy": 0.1901794672012329,
+  "clean_macro_f1": 0.044304706156253815,
+  "seconds": 2.179624700002023,
+  "peak_allocated_gb": 1.58812672,
+  "source_sha256": "55dc9d8cebd6ba9e461eb1657de730e6e4107d90e9661ad3ef243d0d79682d02",
+  "protocol": "stratified 60/20/20, fixed split seed; nested training label budgets; full-graph transductive; clean train/validation; paired test-time edge deletion"
+}

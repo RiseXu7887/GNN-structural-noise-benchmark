@@ -1,0 +1,14 @@
+{"dataset": "CoraFull", "nodes": 19793, "edge_entries": 126842, "features": 8710, "classes": 70, "train_nodes": 2938, "validation_nodes": 3932, "test_nodes": 4012, "split_hashes": {"train": "545cd777e1fb53cd324792c0b8d0c7731c86e6a045e36c2ba3329024895ce4fb", "val": "1d1f604983c4b6c7a0757b71e89a7061e739a23a32bb7ce068a0c88fb7d835b5", "test": "9a16a3a74a7ac0ba80d15c762b1d2203f44704d2359a98de31f478409872e0fb"}}
+Epoch 001 | loss=4.2484 | val=0.0460
+Epoch 020 | loss=4.0158 | val=0.0567
+Epoch 040 | loss=4.0041 | val=0.0473
+Epoch 060 | loss=3.9924 | val=0.0473
+Epoch 080 | loss=3.9670 | val=0.0804
+Epoch 100 | loss=3.8943 | val=0.0852
+Epoch 120 | loss=3.7853 | val=0.0875
+Epoch 140 | loss=3.7038 | val=0.0944
+Epoch 160 | loss=3.5412 | val=0.1190
+Epoch 180 | loss=3.4211 | val=0.1501
+Epoch 200 | loss=3.3333 | val=0.1460
+FINISHED | best_epoch=195 | clean_accuracy=0.1505 | macro_f1=0.0377 | seconds=3.4
+Output: D:\code_works\科研项目：外方教授结课展示\cora_step1\label_budget_results\gated_seed43_fraction0.25

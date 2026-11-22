@@ -1,0 +1,35 @@
+{
+  "dataset": "CoraFull",
+  "device": "cuda",
+  "models": [
+    "mlp",
+    "gcn",
+    "gat",
+    "gated",
+    "fixed"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split_seed": 2026,
+  "train_fractions": [
+    1.0
+  ],
+  "epochs": 200,
+  "rates": [
+    0.0,
+    0.1,
+    0.3,
+    0.5
+  ],
+  "repeats": 5,
+  "source_sha256": "55dc9d8cebd6ba9e461eb1657de730e6e4107d90e9661ad3ef243d0d79682d02",
+  "environment": {
+    "python": "3.12.10",
+    "torch": "2.7.1+cu128",
+    "pyg": "2.6.1",
+    "gpu": "NVIDIA GeForce RTX 5090"
+  }
+}

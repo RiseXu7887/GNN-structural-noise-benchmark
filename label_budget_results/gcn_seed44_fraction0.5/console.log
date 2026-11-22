@@ -1,0 +1,14 @@
+{"dataset": "CoraFull", "nodes": 19793, "edge_entries": 126842, "features": 8710, "classes": 70, "train_nodes": 5907, "validation_nodes": 3932, "test_nodes": 4012, "split_hashes": {"train": "8666964a4e5419e81ff07e063460a8849912d05d62bc3cc50cb34c78168a140e", "val": "1d1f604983c4b6c7a0757b71e89a7061e739a23a32bb7ce068a0c88fb7d835b5", "test": "9a16a3a74a7ac0ba80d15c762b1d2203f44704d2359a98de31f478409872e0fb"}}
+Epoch 001 | loss=4.2485 | val=0.0254
+Epoch 020 | loss=4.0160 | val=0.0443
+Epoch 040 | loss=4.0015 | val=0.0473
+Epoch 060 | loss=3.9877 | val=0.0473
+Epoch 080 | loss=3.9524 | val=0.0819
+Epoch 100 | loss=3.8820 | val=0.0877
+Epoch 120 | loss=3.8011 | val=0.0908
+Epoch 140 | loss=3.7337 | val=0.0972
+Epoch 160 | loss=3.6651 | val=0.1068
+Epoch 180 | loss=3.6107 | val=0.1320
+Epoch 200 | loss=3.5769 | val=0.1521
+FINISHED | best_epoch=200 | clean_accuracy=0.1458 | macro_f1=0.0292 | seconds=2.7
+Output: D:\code_works\科研项目：外方教授结课展示\cora_step1\label_budget_results\gcn_seed44_fraction0.5
